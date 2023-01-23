@@ -10497,5 +10497,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.del-btn {
+  scale: 0;
+  transition: 0.5s;
+}
+
+tr:hover .del-btn {
+  scale: 1;
+}
 
 /*# sourceMappingURL=app.css.map */
