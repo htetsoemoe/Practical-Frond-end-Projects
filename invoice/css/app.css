@@ -10506,4 +10506,8 @@ tr:hover .del-btn {
   scale: 1;
 }
 
+.bg-transparent-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /*# sourceMappingURL=app.css.map */
