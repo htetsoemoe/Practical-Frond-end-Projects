@@ -8,6 +8,7 @@
     <title>Text Controller</title>
 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
 <body class="bg-success">
@@ -16,16 +17,26 @@
             <div class="col-12">
 
                 <div style="left: 0; right: 0; width: 500px;" class="mx-auto my-5 p-2" id="output">
-                    Write Your Text Here!
+                    Your Text will Appear Here!
                 </div>
 
                 <div style="bottom: 20px; left: 0; right: 0; width: 500px;"
                     class="row position-fixed mx-auto border rounded px-2 g-3 mt-4 pb-2">
                     <div class="col-12">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between mb-3">
                             <label class="form-label fw-bold" for="">Say Something</label>
-                            <div class="fw-bold">
-                                Count : <span id="count" class="fw-bold">0</span>
+                            <div class="d-flex align-items-center">
+                                <button id="speechToText" class="btn btn-sm btn-outline-dark me-3">
+                                    <i class="bi bi-mic"></i>
+                                </button>
+
+                                <button id="textToSpeech" class="btn btn-sm btn-outline-dark me-3">
+                                    <i class="bi bi-volume-up"></i>
+                                </button>
+
+                                <div class="fw-bold">
+                                    Count : <span id="count" class="fw-bold">0</span>
+                                </div>
                             </div>
                         </div>
 
